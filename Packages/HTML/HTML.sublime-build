@@ -1,0 +1,5 @@
+{
+	"cmd": ["x-www-browser", "$file"],
+	"file_regex": "^(.*?)\\(([0-9]+)\\)",
+	"selector": "source.html"
+}

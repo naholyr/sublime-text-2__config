@@ -1,0 +1,4 @@
+[
+	{ "keys": ["f7"], "command": "build"},
+	{ "keys": ["f8"], "command": "exec", "args": {"kill": true} }
+]
