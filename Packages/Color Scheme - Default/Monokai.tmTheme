@@ -29,6 +29,19 @@
 				<string>#222218</string>
 				<key>activeGuide</key>
 				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#9D550F</string>
+				<key>bracketsOptions</key>
+				<string>foreground underline</string>
+
+				<key>bracketsContentForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>underline</string>
 			</dict>
 		</dict>
 		<dict>

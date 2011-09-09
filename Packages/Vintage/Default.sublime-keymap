@@ -18,7 +18,7 @@
 
 	{ "keys": ["i"], "command": "enter_insert_mode", "context": [{"key": "setting.command_mode"}] },
 	{ "keys": ["I"], "command": "enter_insert_mode", "args":
-		{"insert_command": "move_to", "insert_args": {"to": "hardbol"} },
+		{"insert_command": "vi_move_to_first_non_white_space_character"},
 		"context": [{"key": "setting.command_mode"}]
 	},
 
@@ -180,6 +180,10 @@
 	},
 
 	{ "keys": ["g", "?"], "command": "set_action", "args": {"action": "rot13", "description": "Rot13"},
+		"context": [{"key": "setting.command_mode"}]
+	},
+
+	{ "keys": ["g", "a"], "command": "show_ascii_info",
 		"context": [{"key": "setting.command_mode"}]
 	},
 

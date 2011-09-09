@@ -539,6 +539,10 @@
 
 	{ "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
 
+	{ "keys": ["ctrl+shift+j"], "command": "fold" },
+	{ "keys": ["ctrl+k", "ctrl+j"], "command": "unfold_all" },
+	{ "keys": ["ctrl+k", "ctrl+t"], "command": "fold_tag_attributes" },
+
 	{ "keys": ["context_menu"], "command": "context_menu" },
 
 	{ "keys": ["alt+c"], "command": "toggle_case_sensitive", "context":

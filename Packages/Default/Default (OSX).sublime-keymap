@@ -500,6 +500,10 @@ and don't need to be repeated here. Anything listed here will take precedence, h
 
 	{ "keys": ["super+alt+q"], "command": "wrap_lines" },
 
+	{ "keys": ["super+shift+j"], "command": "fold" },
+	{ "keys": ["super+k", "super+j"], "command": "unfold_all" },
+	{ "keys": ["super+k", "super+t"], "command": "fold_tag_attributes" },
+
 	{ "keys": ["super+alt+o"], "command": "toggle_overwrite" },
 
 	{ "keys": ["alt+f2"], "command": "context_menu" },
