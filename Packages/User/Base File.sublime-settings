@@ -1,6 +1,10 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"font_face": "Inconsolata",
-	"font_size": 14
-	//"draw_white_space": "all"
+	"font_size": 14,
+	"draw_white_space": "all",
+	"match_brackets_angle": true,
+	"trim_trailing_white_space_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"shift_tab_unindent": true
 }
