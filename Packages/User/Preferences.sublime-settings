@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"draw_white_space": "all",
+	"fallback_encoding": "UTF-8",
+	"font_face": "Inconsolata",
+	"font_size": 15.0,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeBrackets"
+	],
+	"match_brackets_angle": true,
+	"shift_tab_unindent": true,
+	"theme": "Soda Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
