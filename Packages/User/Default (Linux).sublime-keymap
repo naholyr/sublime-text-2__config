@@ -23,4 +23,13 @@
 }, {
 	"keys": ["ctrl+shift+x"],
 	"command": "abacus"
+}, {
+	"keys": ["alt+t"],
+	"command": "open_terminal"
+}, {
+	"keys": ["alt+shift+t"],
+	"command": "open_terminal_project_folder"
+}, {
+	"keys": ["ctrl+shift+t"],
+	"command": "open_recent_files"
 }]
