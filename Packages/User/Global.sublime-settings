@@ -1,7 +1,8 @@
 {
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"SublimeBrackets"
 	],
 	"theme": "Soda Dark.sublime-theme"
 }

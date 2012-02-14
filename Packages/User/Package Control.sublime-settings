@@ -1,3 +1,41 @@
 {
-	"auto_upgrade_last_run": 1315209275
+	"auto_upgrade_last_run": 1329227080,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"ColorPicker",
+		"copy-file-name",
+		"CTags",
+		"Gist",
+		"Git",
+		"HexViewer",
+		"Inc-Dec-Value",
+		"JsFormat",
+		"Nodejs",
+		"Package Control",
+		"Placeholders",
+		"Prefixr",
+		"Pretty JSON",
+		"SideBarGit",
+		"SublimeBrackets",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SublimeTODO",
+		"Terminal",
+		"Todo Manager",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/Anomareh",
+		"https://github.com/buymeasoda/soda-theme",
+		"https://github.com/tanepiper/SublimeText-Nodejs",
+		"https://github.com/eduardolundgren/Sublime-JSLint",
+		"https://github.com/SublimeText"
+	],
+	"repository_channels":
+	[
+		"http://sublime.wbond.net/repositories.json"
+	],
+	"timeout": 30
 }

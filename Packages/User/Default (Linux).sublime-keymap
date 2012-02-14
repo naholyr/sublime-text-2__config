@@ -1,4 +1,23 @@
-[
-	{ "keys": ["f7"], "command": "build"},
-	{ "keys": ["f8"], "command": "exec", "args": {"kill": true} }
-]
+[{
+	"args": {
+		"cmd": ["node", "${packages}/SublimeREPL/config/NodeJS/repl.js"],
+		"cwd": "$file_path",
+		"encoding": "utf8",
+		"external_id": "nodejs",
+		"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+		"type": "subprocess"
+	},
+	"caption": "NodeJS",
+	"command": "repl_open",
+	"keys": ["alt+x"],
+	"mnemonic": "x"
+}, {
+	"command": "build",
+	"keys": ["f7"]
+}, {
+	"args": {
+		"kill": true
+	},
+	"command": "exec",
+	"keys": ["f8"]
+}]

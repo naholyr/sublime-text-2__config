@@ -3,6 +3,7 @@ import sublime_plugin
 import os
 import sys
 import subprocess
+import locale
 
 if os.name == 'nt':
     import _winreg
@@ -33,6 +34,8 @@ class TerminalSelector():
 
         if TerminalSelector.default:
             return TerminalSelector.default
+
+        default = None
 
         if os.name == 'nt':
             if os.path.exists(os.environ['SYSTEMROOT'] +
@@ -98,9 +101,12 @@ class TerminalCommand():
             if not dir:
                 raise NotFoundError('The file open in the selected view has ' +
                     'not yet been saved')
+            for k, v in enumerate(parameters):
+                parameters[k] = v.replace('%CWD%', dir)
             args = [TerminalSelector.get()]
             args.extend(parameters)
-            subprocess.Popen(args, cwd=dir)
+            encoding = locale.getpreferredencoding(do_setlocale=True)
+            subprocess.Popen(args, cwd=dir.encode(encoding))
 
         except (OSError) as (exception):
             print str(exception)
