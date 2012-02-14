@@ -1,10 +1,56 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"draw_white_space": "all",
-	"fallback_encoding": "UTF-8",
-	"font_face": "Inconsolata",
-	"font_size": 15.0,
-	"match_brackets_angle": true,
-	"shift_tab_unindent": true,
-	"trim_trailing_white_space_on_save": true
+	"color_scheme":                         "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"draw_white_space":                     "all",
+	"fallback_encoding":                    "UTF-8",
+	"font_face":                            "Inconsolata",
+	"font_size":                            15.0,
+	"match_brackets_angle":                 true,
+	"shift_tab_unindent":                   true,
+	"trim_trailing_white_space_on_save":    true,
+	"com.khiltd.abacus.debug": true,
+	"com.khiltd.abacus.separators": [{
+		"token": ":",
+		"gravity": "left",
+		"preserve_indentation": true
+	}, {
+		"token": "=>",
+		"gravity": "left",
+		"preserve_indentation": true
+	}, {
+		"token": "=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "+=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "-=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "*=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "/=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "?=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "||=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "%=",
+		"gravity": "right",
+		"preserve_indentation": true
+	}, {
+		"token": "==",
+		"gravity": "right",
+		"preserve_indentation": true
+	}]
 }

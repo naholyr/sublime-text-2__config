@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": 1329227080,
 	"installed_packages":
 	[
+		"Abacus",
 		"CoffeeScript",
 		"ColorPicker",
 		"copy-file-name",

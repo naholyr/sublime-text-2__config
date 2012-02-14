@@ -20,4 +20,7 @@
 	},
 	"command": "exec",
 	"keys": ["f8"]
+}, {
+	"keys": ["ctrl+shift+x"],
+	"command": "abacus"
 }]
