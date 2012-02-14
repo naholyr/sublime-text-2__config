@@ -1,0 +1,11 @@
+{
+	// end-expand → End braces on own line
+	// collapse → Braces with control statement
+	// expand → Braces on own line
+	// expand-strict → Braces always on own line (not recommended)
+	"brace_style": "end-expand",
+
+	"jslint_happy": true,
+
+	"max_preserve_newlines": 2
+}
