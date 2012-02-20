@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1329683849,
+	"auto_upgrade_last_run": 1329729146,
 	"installed_packages":
 	[
 		"Abacus",
@@ -8,7 +8,6 @@
 		"copy-file-name",
 		"CTags",
 		"FileDiffs",
-		"Gist",
 		"Git",
 		"HexViewer",
 		"Inc-Dec-Value",
@@ -20,6 +19,7 @@
 		"Placeholders",
 		"Prefixr",
 		"SideBarGit",
+		"sublime-github",
 		"SublimeBrackets",
 		"SublimeLinter",
 		"SublimeREPL",
