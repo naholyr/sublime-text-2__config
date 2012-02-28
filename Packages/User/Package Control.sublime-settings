@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1330331292,
+	"auto_upgrade_last_run": 1330418716,
 	"installed_packages":
 	[
 		"Abacus",
@@ -13,6 +13,7 @@
 		"HexViewer",
 		"Inc-Dec-Value",
 		"JsFormat",
+		"LiveReload",
 		"Markdown Preview",
 		"Nodejs",
 		"Open Recent Files",
